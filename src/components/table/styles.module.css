@@ -1,0 +1,47 @@
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_head {
+  display: flex;
+  height: 54px;
+  color: white;
+  background: #474955;
+}
+
+.table_item {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table_item > svg {
+  margin-left: 40px;
+}
+
+.table_item_id {
+  flex: .2;
+}
+
+.table_row {
+  display: flex;
+  min-height: 56px;
+  color: #474955;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.687%;
+}
+
+.table_row > .table_item {
+  padding: 10px 11px;
+  border: 1px solid #E3E6EC;
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.table_row > .table_item.table_item_id {
+  justify-content: center;
+}
